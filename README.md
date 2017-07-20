@@ -9,5 +9,12 @@ The modeling system is designed to build complete models with price, promotions 
 https://gallery.cortanaintelligence.com/Experiment/Digital-Foundry-Demand-Forecasting
 
 <p align="center">
-<img src="https://github.com/kumarchinnakali/digital-foundry-demand-forcasting/blob/master/Images/ModelSceenshot.png" width="850"/>
+<img src="https://github.com/kumarchinnakali/digital-foundry-demand-forcasting/blob/master/Images/ModelSceenshot.png" width="500"/>
 </p>
+
+<h2> Forecast Model selection </h2>
+<p>
+A multiple regression model was used to estimate demand (SALES) by incorporating historical data available as well as through other factors influencing the demand. The model was built at a Product-Market level (lowest level of granularity) 
+Model equation: </p>
+<p align="center">Demand ie; Sales = f (Price, Discount, Other influencing factors*) </p>
+*Other influencing factors – Holiday variables, seasonality, Promotion support (Feature, Display), competitior’s effect etc.

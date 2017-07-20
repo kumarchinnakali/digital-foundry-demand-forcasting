@@ -1,4 +1,4 @@
-# digital_foundry_demand_forcasting
+# Digital_foundry_demand_forcasting
 In tune with conventional big data and data science practitioners’ line of thought, currently causal analysis was the only approach considered for our demand forecasting effort which was applicable across the product portfolio. Experience dictates that not all data are same. Each group of data has different data patterns based on how they were sold and supported over the product life cycle. One-methodology-fits-all is very pleasing from an implementation of view. On a practical ground, one must consider solutions for varying needs of different product types in our product portfolio like  new products both evolutionary and revolutionary, niche products, high growth products and more.   With this backdrop, we have evolved a solution which segments the product portfolio into quadrants and then match a series of algorithms for each quadrant instead of one methodology for all. And technology stack would be simulated/mocked data(Hadoop Ecosystem) > AzureML with R/Python > Zeppelin. 
 
 <p align="center">
@@ -17,4 +17,18 @@ https://gallery.cortanaintelligence.com/Experiment/Digital-Foundry-Demand-Foreca
 A multiple regression model was used to estimate demand (SALES) by incorporating historical data available as well as through other factors influencing the demand. The model was built at a Product-Market level (lowest level of granularity) 
 Model equation: </p>
 <p align="center">Demand ie; Sales = f (Price, Discount, Other influencing factors*) </p>
-*Other influencing factors – Holiday variables, seasonality, Promotion support (Feature, Display), competitior’s effect etc.
+<p>*Other influencing factors – Holiday variables, seasonality, Promotion support (Feature, Display), competitior’s effect etc.</p>
+
+<h2>Model Set-Up & Basics – Data Preparation</h2>
+<p>The model necessitated the addition of derived & external variables:
+ Discount
+ Competitor’s effect
+ Holiday variables
+  o New Year Day
+  o Easter
+  o Memorial Day
+  o Labor Day
+  o Independence Day
+  o Superbowl
+  o Thanksgiving,
+  o Christmas </p>

@@ -37,4 +37,17 @@ Model equation: </p>
     </ul>
   </li>
 </ul>
+Holiday variables were incorporated into the model to account for the change in consumption pattern during the various holidays in the US. In addition to the holiday itself, effects of shopping behavior pre- (that is, before the holiday) was also captured during the relevant week.
+</p>
+<h2>High level process flow in Azure ML</h2>
+<p>Refer the document: 
+https://github.com/kumarchinnakali/digital-foundry-demand-forcasting/blob/master/BuildModel/DF2model.pdf
+</p>
+<h2>Model Results and Diagnostics</h2>
+<p>Fitted-salesunits and actual-salesunits are plotted against Weekending dates to capture their varying trends. Comparing Predictions from Causal Model and STLM model:</p>
+<p align="center">
+<img src="https://github.com/kumarchinnakali/digital-foundry-demand-forcasting/blob/master/Images/CausalOutput.PNG" width="700"/>
+</p>
+<p align="center">
+<img src="https://github.com/kumarchinnakali/digital-foundry-demand-forcasting/blob/master/Images/STLMOutput.PNG" width="700"/>
 </p>

@@ -51,3 +51,5 @@ https://github.com/kumarchinnakali/digital-foundry-demand-forcasting/blob/master
 <p align="center">
 <img src="https://github.com/kumarchinnakali/digital-foundry-demand-forcasting/blob/master/Images/STLMOutput.PNG" width="700"/>
 </p>
+<h2>Model Evaluation</h2>
+<p>ModeL Evaluation is doen by calculating accuracy and MAPE Error for causal model and MASE Error for Decomposition and Croston Method bulit model.</p>

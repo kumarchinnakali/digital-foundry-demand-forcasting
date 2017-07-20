@@ -21,14 +21,20 @@ Model equation: </p>
 
 <h2>Model Set-Up & Basics – Data Preparation</h2>
 <p>The model necessitated the addition of derived & external variables:
- Discount
- Competitor’s effect
- Holiday variables
-  o New Year Day
-  o Easter
-  o Memorial Day
-  o Labor Day
-  o Independence Day
-  o Superbowl
-  o Thanksgiving,
-  o Christmas </p>
+<ul style="list-style-type:disc">
+  <li>Discount</li>
+  <li>Competitor’s effect</li>
+  <li>Holiday variables
+    <ul>
+      <li>New Year Day</li>
+       <li> Easter </li> 
+       <li>Memorial Day </li>
+       <li>Labor Day </li> 
+       <li>Independence Day </li>
+       <li>Superbowl </li>
+       <li>Thanksgiving </li>
+      <li>Christmas </li>
+    </ul>
+  </li>
+</ul>
+</p>

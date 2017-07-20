@@ -4,10 +4,10 @@ In tune with conventional big data and data science practitioners’ line of tho
 <p align="center">
 <img src="https://github.com/kumarchinnakali/digital-foundry-demand-forcasting/blob/master/Images/SolutionOverview.png" width="700"/>
 </p>
-
-The modeling system is designed to build complete models with price, promotions and competitive terms and flexible enough for exploratory & Ad Hoc modeling. The examples below are based on R implementation on RStudio® IDE and Azure ML Studio. The Model of POC is published in the Cortana Gallery :
+<h2>Overview</h2>
+The modeling system is designed to build complete models with price, promotions and competitive terms and flexible enough for exploratory & Ad Hoc modeling. The Model of POC is based on R implementation on RStudio® IDE and Azure ML Studio and is published in the Cortana Gallery :
 https://gallery.cortanaintelligence.com/Experiment/Digital-Foundry-Demand-Forecasting
 
 <p align="center">
-<img src="https://github.com/kumarchinnakali/digital-foundry-demand-forcasting/blob/master/Images/ModelSceenshot.png" width="900"/>
+<img src="https://github.com/kumarchinnakali/digital-foundry-demand-forcasting/blob/master/Images/ModelSceenshot.png" width="850"/>
 </p>
